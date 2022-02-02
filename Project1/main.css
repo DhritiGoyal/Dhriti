@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(188, 230, 255);
+}
+
+h1{
+    color:rgb(5, 59, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+p{
+    color:rgb(5, 59, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: medium; 
+}
+
+#firstClass{
+margin-left: 27%;
+}
+
+.Bob{
+ width: 190px;
+}
