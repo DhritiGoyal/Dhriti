@@ -1,0 +1,165 @@
+
+@font-face {
+  font-family: 'abc_diatype_semi-mono_trialRg';
+  src: url('..//fonts/1/abcdiatypesemi-mono-regular-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypesemi-mono-regular-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'abc_diatype_semi-mono_trialIt';
+  src: url('..//fonts/1/abcdiatypesemi-mono-regularitalic-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypesemi-mono-regularitalic-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'abc_diatype_semi-mono_trialLt';
+  src: url('..//fonts/1/abcdiatypesemi-mono-light-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypesemi-mono-light-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'abc_diatype_semi-mono_triLtIt';
+  src: url('..//fonts/1/abcdiatypesemi-mono-lightitalic-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypesemi-mono-lightitalic-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* }////GOOGD//// */
+@font-face {
+  font-family: 'abc_diatype_semi-mono_trialMd';
+  src: url('..//fonts/1/abcdiatypesemi-mono-medium-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypesemi-mono-medium-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'abc_diatype_semi-mono_triMdIt';
+  src: url('..//fonts/1/abcdiatypesemi-mono-mediumitalic-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypesemi-mono-mediumitalic-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+/* GOOD-HEADING */
+@font-face {
+  font-family: 'abc_diatype_mono_trialbold';
+  src: url('..//fonts/2/abcdiatypemono-bold-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypemono-bold-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'abc_diatype_mono_trialBdIt';
+  src: url('..//fonts/2/abcdiatypemono-bolditalic-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypemono-bolditalic-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'abc_diatype_semi-mono_trialTh';
+  src: url('..//fonts/2/abcdiatypesemi-mono-thin-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypesemi-mono-thin-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'abc_diatype_semi-mono_triThIt';
+  src: url('..//fonts/2/abcdiatypesemi-mono-thinitalic-trial-webfont.woff2') format('woff2'),
+       url('abcdiatypesemi-mono-thinitalic-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'digestive_demofour';
+  src: url('..//fonts/3/digestivedemo-four-webfont.woff2') format('woff2'),
+       url('digestivedemo-four-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color:white;
+}
+
+canvas {
+  /* display: block;
+  margin-left: 28vw; 
+  margin-top: 4%; */
+}
+
+/* * {   
+  float:top; */
+    /* display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+} */
+
+.button-SaveSketch{
+  font-family: 'abc_diatype_mono_trialbold';
+  src: url('..//fonts/2/abcdiatypemono-bold-trial-webfont.woff2') format('woff2');
+  background-color: none;
+  border: white;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* #Textdiv{
+  margin-left: 50%; 
+  display: block;
+  padding: 10px 24px;
+} */
+
+h1{
+  font-family: 'digestive_demotwo';
+  src: url('..//fonts/4/digestivedemo-two-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  /* color:rgb(235, 176, 252); */
+  font-size:4rem;
+  margin-top: -2%;
+  margin-left: 70vh;
+  text-align:right;
+}
+
+
+.button{
+  font-family: 'abc_diatype_mono_trialbold';
+  src: url('..//fonts/2/abcdiatypemono-bold-trial-webfont.woff2') format('woff2');
+  background-color: none;
+  border: white;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.poemsText{
+  font-family: 'abc_diatype_semi-mono_triThIt';
+  src: url('..//fonts/2/abcdiatypesemi-mono-thinitalic-trial-webfont.woff2') format('woff2');
+  font-size: 1rem;
+}
