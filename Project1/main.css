@@ -1,14 +1,68 @@
+@font-face {
+    font-family: 'abc_diatype_triallight';
+    src: url('./webfontkit-20220515-230605/abcdiatype-light-trial-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220515-230605/abcdiatype-light-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'abc_diatype_triallight_italic';
+    src: url('./webfontkit-20220515-230605/abcdiatype-lightitalic-trial-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220515-230605/abcdiatype-lightitalic-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'abc_diatype_trialmedium';
+    src: url('./webfontkit-20220515-230605/abcdiatype-medium-trial-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220515-230605/abcdiatype-medium-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'abc_diatype_trialMdIt';
+    src: url('./webfontkit-20220515-230605/abcdiatype-mediumitalic-trial-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220515-230605/abcdiatype-mediumitalic-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'abc_diatype_trialthin';
+    src: url('./webfontkit-20220515-230605/abcdiatype-thin-trial-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220515-230605/abcdiatype-thin-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     background-color:rgb(208, 255, 0);
-    width:13300px;
+    width:15090px;
     margin:0;
     padding:0;
+    overflow-y: hidden;
+    overflow-x:auto;
 }
 .row{
-    float: left;
-    height:100vh;
-    width:auto;
-    padding:0px;
+    /* float: left; */
+    height:10vh;
+     /* width:170vw; */
+    /* padding:0px; */
+    filter: blur(3px);
+    /* width: 7.68%;  */
+    background-repeat: repeat;
+}
+
+.row:hover{
+    filter: blur(0px);
 }
 .background-images::after {
     clear: both;
@@ -17,9 +71,11 @@ body{
 }
 
 .week_container{
+    font-family: 'abc_diatype_triallight';
+    src: url('./webfontkit-20220515-230605/abcdiatype-light-trial-webfont.woff2') format('woff2');
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    padding:10px;
+    padding:20px;
     position:fixed;
     width:fit-content;
     z-index:1;
@@ -39,8 +95,9 @@ body{
 }
 
 p{
-    color:rgb(237, 235, 235);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'abc_diatype_trialmedium';
+    src: url('./webfontkit-20220515-230605/abcdiatype-medium-trial-webfont.woff2') format('woff2');
+    color:rgb(0, 0, 0);
     text-align: left;
     font-size: medium; 
     z-index:1;

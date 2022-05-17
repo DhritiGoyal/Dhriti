@@ -175,90 +175,90 @@ var branch = {namex: "branch", imagez:'../assets/shapes/shape1.png'},
 };
 
 function setup() {
-  myCanvas = createCanvas(500, 500);
+  myCanvas = createCanvas(600, 600);
   myCanvas.parent("sketchGenerated");
   myCanvas.position(350,80)
   rectMode(CENTER);
-  button = createButton("generate sketch");
+  button = createButton("generate sketch 1");
   button.mousePressed(makeSketch1);
   button.class("generateButton");
   button.position(20,100);
-  button = createButton("generate sketch");
+  button = createButton("generate sketch 2");
   button.mousePressed(makeSketch2);
    button.class("generateButton");
   button.position(20,130);
-  button = createButton("generate sketch");
+  button = createButton("generate sketch 3");
   button.mousePressed(makeSketch3);
    button.class("generateButton");
   button.position(20,160);
-  button = createButton("generate sketch");
+  button = createButton("generate sketch 4");
   button.mousePressed(makeSketch4);
    button.class("generateButton");
   button.position(20,190);
-  button = createButton("generate sketch");
+  button = createButton("generate sketch 5");
   button.mousePressed(makeSketch5);
    button.class("generateButton");
   button.position(20,220);
-  button = createButton("generate sketch");
+  button = createButton("generate sketch 6");
   button.mousePressed(makeSketch6);
    button.class("generateButton");
   button.position(20,250);
-  button = createButton("generate sketch");
+  button = createButton("generate sketch 7");
   button.mousePressed(makeSketch7);
    button.class("generateButton");
   button.position(20,280);
-  button = createButton("generate sketch");
+  button = createButton("generate sketch 8");
   button.mousePressed(makeSketch8);
    button.class("generateButton");
   button.position(20,310);
-  button = createButton("generate sketch");
+  button = createButton("generate sketch 9");
   button.mousePressed(makeSketch9);
    button.class("generateButton");
   button.position(20,340);
-  button = createButton("generate text");
+  button = createButton("generate text 1");
   button.mousePressed(makeSketch20);
   button.class("TextButton");
-  button.position(20,370);
-  button = createButton("generate sketch");
+  button.position(25,370);
+  button = createButton("generate sketch 11");
   button.mousePressed(makeSketch10);
    button.class("generateButton");
-  button.position(132,100);
-  button = createButton("generate sketch");
+  button.position(142,100);
+  button = createButton("generate sketch 12");
   button.mousePressed(makeSketch11);
    button.class("generateButton");
-  button.position(132,130);
-  button = createButton("generate sketch");
+  button.position(142,130);
+  button = createButton("generate sketch 13");
   button.mousePressed(makeSketch12);
    button.class("generateButton");
-  button.position(132,160);
-  button = createButton("generate sketch");
+  button.position(142,160);
+  button = createButton("generate sketch 14");
   button.mousePressed(makeSketch13);
    button.class("generateButton");
-  button.position(132,190);
-  button = createButton("generate sketch");
+  button.position(142,190);
+  button = createButton("generate sketch 15");
   button.mousePressed(makeSketch14);
    button.class("generateButton");
-  button.position(132,220);
-  button = createButton("generate sketch");
+  button.position(142,220);
+  button = createButton("generate sketch 16");
   button.mousePressed(makeSketch15);
    button.class("generateButton");
-  button.position(132,250);
-  button = createButton("generate sketch");
+  button.position(142,250);
+  button = createButton("generate sketch 17");
   button.mousePressed(makeSketch16);
    button.class("generateButton");
-  button.position(132,280);
-  button = createButton("generate sketch");
+  button.position(142,280);
+  button = createButton("generate sketch 18");
   button.mousePressed(makeSketch17);
    button.class("generateButton");
-  button.position(132,310);
-  button = createButton("generate sketch");
+  button.position(142,310);
+  button = createButton("generate sketch 19");
   button.mousePressed(makeSketch18);
    button.class("generateButton");
-  button.position(132,340);
-  button = createButton("generate text");
+  button.position(142,340);
+  button = createButton("generate text 2");
   button.mousePressed(makeSketch19);
   button.class("TextButton");
-  button.position(132,370);
+  button.position(148,370);
   button = createButton("Save Sketch");
   button.mousePressed(makeSketch21);
   button.class("button-SaveSketch");
@@ -411,8 +411,8 @@ function makeSketch19(){
   Textdiv.html(dataA + " " + dataB + " ");
   Textdiv.class("poemsText")
   Textdiv.position(n,m);
-  n = random(900,1050);
-  m = random(80,500);
+  n = random(980,1040);
+  m = random(120,500);
   console.log(dataA, dataB)
 }
 
@@ -422,8 +422,8 @@ function makeSketch20(){
     Textdiv.html(dataC + " " + dataD);
     Textdiv.class("poemsText")
     Textdiv.position(n,m);
-    n = random(900,1050);
-    m = random(80,500);
+    n = random(950,1050);
+    m = random(120,500);
     console.log(dataC, dataD)
   }
   

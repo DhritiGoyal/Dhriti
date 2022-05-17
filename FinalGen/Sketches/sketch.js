@@ -191,9 +191,9 @@ function setup() {
   button = createButton("Save Sketch");
   button.mousePressed(makeSketch20);
   button.class("button-SaveSketch");
-  button.position(287,0);
-  myCanvas = createCanvas(500, 500);
-  myCanvas.position(350,80)
+  button.position(257,0);
+  myCanvas = createCanvas(600, 600);
+  myCanvas.position(380,80)
   myCanvas.style('z-index', '-1');
   myCanvas.parent("sketchGenerated");
   rectMode(CENTER);
@@ -237,7 +237,7 @@ function setup() {
     }
      Textdiv = createDiv('').size(100,50); 
      Textdiv.html(dataC + "  " + dataD);
-     Textdiv.position(900,80);
+     Textdiv.position(990,80);
      Textdiv.class("poemsText")
     }
 
@@ -254,7 +254,7 @@ function setup() {
     }
      Textdiv = createDiv('').size(100,150); 
      Textdiv.html(dataA + "   " + dataB + "  " + dataC + "  " + dataD);
-     Textdiv.position(900,80);
+     Textdiv.position(990,80);
      Textdiv.class("poemsText")
     }
   }
